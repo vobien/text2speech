@@ -26,7 +26,7 @@ translations = {
 }
 
 st.title("Text to Speech Converter")
-language = st.selectbox("Select language:", ('en', 'vi'))
+language = st.selectbox("Select language:", ('vi', 'en'))
 
 user_input = st.text_area(translations[language]['enter_text'])
 
